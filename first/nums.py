@@ -7,12 +7,15 @@ def plus(a, b):
     # сложение чисел a и  b
     return a + b
 
-text = 'new text' # текст ни о чем просто для изменения программы
-
 def minus(a, b):
     # вычитание чисел
     return a - b
 
+def mul(a, b):
+    # умножение чисел
+    return a * b
+
 if __name__ == '__main__':
     print(plus(2, 2))
     print(minus(4, 2))
+    print(mul(3, 3))
